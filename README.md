@@ -19,7 +19,7 @@ A simple and responsive Todo application built with React as part of my journey 
 
 ## Live Demo
 
-[View Live Demo](to-do-list-ahmad.netlify.app)
+[View Live Demo](https://to-do-list-ahmad.netlify.app)
 
 ## Purpose
 
