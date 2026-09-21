@@ -1,0 +1,40 @@
+/* Custom Fonts */
+@font-face {
+    font-family: font;
+    src: url('../public/fonts/NotoKufiArabic-Black.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: font;
+    src: url('../public/fonts/NotoKufiArabic-Light.ttf');
+    font-weight: 200;
+}
+@font-face {
+    font-family: font;
+    src: url('../public/fonts/NotoKufiArabic-Bold.ttf');
+    font-weight: bold;
+}
+/* /Custom Fonts */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iconBtn {
+    transition: all 0.3s !important;
+}
+.iconBtn:hover {
+    background-color: #c5c5c5 !important;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.todoCard {
+    transition: all 0.3s !important;
+}
+.todoCard:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
